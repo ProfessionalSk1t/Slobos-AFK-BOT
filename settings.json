@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "randland-zCkJ.aternos.me",
+    "port": 47364,
     "version": "1.21.1"
   },
   "position": {
@@ -18,8 +18,7 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "Slobos"
+      "enabled": false,
     },
     "anti-afk": {
       "enabled": true,
@@ -30,12 +29,10 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "online rakhne ke liye bot"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
@@ -75,15 +72,6 @@
   "beds": {
     "pick-up-day": true,
     "place-night": true
-  },
-  "discord": {
-    "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
   },
   "chat": {
     "respond": true
