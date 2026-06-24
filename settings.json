@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "onliner",
+    "username": "Technoblade",
     "password": "",
     "type": "offline"
   },
@@ -18,7 +18,8 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": false
+      "enabled": true,
+      "password": "Slobos"
     },
     "anti-afk": {
       "enabled": true,
@@ -29,10 +30,12 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "online rakhne ke liye bot"
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
       ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
@@ -72,6 +75,15 @@
   "beds": {
     "pick-up-day": true,
     "place-night": true
+  },
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
   },
   "chat": {
     "respond": true
